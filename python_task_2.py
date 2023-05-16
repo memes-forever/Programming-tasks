@@ -15,7 +15,7 @@ def array_cross(a_list: list, b_list: list) -> list:
         # проверяем наличие в списке b
         if value in b_list:
             z.append(value)  # добавляем
-    z.sort()  # сортируем получившийся список
+    z.sort()  # сортировка списка
     return z
 
 
